@@ -1,0 +1,27 @@
+{
+    "name": "newday-me/think-cms-installer",
+    "description": "CMS安装",
+    "type": "composer-plugin",
+    "homepage": "http://cms.newday.me/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "哩呵",
+            "email": "newday_me@163.com"
+        }
+    ],
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "require-dev": {
+        "composer/composer": "1.0.*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "cms\\composer\\": "src"
+        }
+    },
+    "extra": {
+        "class": "cms\\composer\\Plugin"
+    }
+}
